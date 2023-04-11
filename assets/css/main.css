@@ -675,11 +675,14 @@ p {
   .navbar-expand-lg .navbar-collapse {
     justify-content: center;
   }
-  .ms-auto{
+  /* .ms-auto{
     margin-left: 0 !important;
-  }
+  } */
 }
 
+.nav-social-icons {
+  margin-left: 250px;
+}
 
 /* ============== hero-area ============ */
 .hero-content {
@@ -704,13 +707,13 @@ p {
   text-align:center;
   width: 100%;
 }
-.logo {
+/* .logo {
   width:50px;
   fill:white;
   padding-right:15px;
   display:inline-block;
   vertical-align: middle;
-}
+} */
 
 .inner-header {
   width:100%;
@@ -1113,7 +1116,7 @@ p {
 
 .service-section .single-service .icon.color-4 {
   background: #ECE8FF;
-  background-image: url(../img/service/millie.JPG);
+  background-image: url(../img/service/mario.JPEG);
   background-position: center;
   background-size: cover;
 }
@@ -1198,16 +1201,18 @@ p {
   background-color: #222;
   background-size: cover;
   background-position: top center;
-  padding-top: 150px;
 }
 
 .footer img {
   width: 200px;
   height: 200px;
+  display: flex;
+  margin: auto;
 }
 
 .footer .widget-wrapper .footer-widget {
-  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .footer .widget-wrapper .footer-widget .desc {
