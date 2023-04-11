@@ -80,7 +80,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Calistoga", sans-serif;
   font-weight: 700;
   margin: 0px;
   color: #ffffff;
@@ -88,7 +88,7 @@ h6 {
 
 .section-title p {
   font-size: 20px;
-  line-height: 28px;
+  line-height: 30px;
   padding: 20px 0px;
 }
 
@@ -462,7 +462,6 @@ p {
 
 .navbar-toggler {
   padding: 0;
-  background-color: #0387d6;
 }
 
 .navbar-toggler:focus {
@@ -746,6 +745,10 @@ p {
   background-color: white;
 }
 
+.content p {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
 .dynamic-text-shadow {
   /*  larger font size, more shadow distance  */
   text-shadow: .1em .1em 0 hsl(200 50% 30%);
@@ -888,6 +891,9 @@ p {
   .hero-section .hero-content {
     /* margin-bottom: 50px; */
   }
+  .waves {
+    height: 18vh;
+  }
 }
 
 .hero-section .hero-content span {
@@ -924,6 +930,8 @@ p {
   .hero-section .hero-content h1 {
     font-size: 25px;
     text-align: center;
+    line-height: 1.6;
+
   }
 }
 
@@ -1008,6 +1016,20 @@ p {
 
 .client-logo-section .single-logo img {
   max-width: 100%;
+}
+
+.hero-section img {
+  height: 450px;
+}
+
+@media (max-width: 767px){
+  .hero-section {
+    padding: 100px 0 7px;
+  }
+  .hero-section img{
+    height: 400px;
+    padding-bottom: 25px;
+  }
 }
 
 /* ======= about css ========*/
