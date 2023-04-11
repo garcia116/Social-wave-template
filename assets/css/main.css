@@ -1113,6 +1113,16 @@ p {
 
 .service-section .single-service .icon.color-4 {
   background: #ECE8FF;
+  background-image: url(../img/service/millie.JPG);
+  background-position: center;
+  background-size: cover;
+}
+
+.service-section .single-service .icon.color-5 {
+  background: #ECE8FF;
+  background-image: url(../img/service/oscar.jpeg);
+  background-position: center;
+  background-size: cover;
 }
 
 .service-section .single-service .content h3 {
