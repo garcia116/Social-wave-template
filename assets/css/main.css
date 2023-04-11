@@ -741,7 +741,7 @@ p {
 
 .content {
   position:relative;
-  height:20vh;
+  height:10vh;
   text-align:center;
   background-color: white;
 }
@@ -877,7 +877,10 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-section .hero-content {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+  }
+  .waves {
+    margin-bottom: 0px;
   }
 }
 
@@ -902,6 +905,7 @@ p {
 .hero-section .hero-content h1 {
   font-size: 30px;
   margin-bottom: 35px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -918,7 +922,7 @@ p {
 
 @media (max-width: 767px) {
   .hero-section .hero-content h1 {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
   }
 }
