@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-beta2.min.css" />
     <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
     <link rel="stylesheet" href="assets/css/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
-	<link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   </head>
   <body>
@@ -115,8 +115,8 @@
         <div class="row align-items-center">
          
             <div class="hero-content">
-				<img src="./assets/img/hero/social-wave.svg" alt="social-wave">
-				<h1 class="dynamic-text-shadow" style="letter-spacing: 2px;"> Inspiring conversations that exhibit the message of the Gospel</h1>
+				<img data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="3000" src="./assets/img/hero/social-wave.svg" alt="social-wave">
+				<h1 data-aos="fade-up" class="dynamic-text-shadow animate__animated animate__fadeInUpBig" style="letter-spacing: 2px;"> Exploring the intersection of society, culture & faith</h1>
 				<div class="header">
 					
 
@@ -130,10 +130,10 @@
 					<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
 					</defs>
 					<g class="parallax">
-					<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0, 161, 255, 0.8)" />
-					<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(62, 183, 254, 0.8)" />
-					<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(117, 204, 255, 0.8)" />
-					<use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(180, 227, 255, 0.8)" />
+					<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0, 218, 255, 0.8)" />
+					<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0, 225, 255, 0.8)" />
+					<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0, 235, 255, 0.8)" />
+					<use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(0, 245, 255, 0.8)" />
 					</g>
 					</svg>
 					</div>
@@ -152,91 +152,6 @@
     </section>
 		<!-- ========================= hero-section end ========================= -->
 
-		<!-- ========================= client-logo-section start ========================= -->
-		<!-- <section class="client-logo-section pt-150">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-logo text-center">
-							<img src="assets/img/client-logo/lineicons.svg" alt="">
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-logo text-center">
-							<img src="assets/img/client-logo/uideck.svg" alt="">
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-logo text-center">
-							<img src="assets/img/client-logo/pagebulb.svg" alt="">
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-logo text-center">
-							<img src="assets/img/client-logo/graygrids.svg" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-		<!-- ========================= client-logo-section end ========================= -->
-
-		<!-- ========================= about-section start ========================= -->
-		<!-- <section id="about" class="about-section pt-150">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="about-img mb-50">
-							<img src="assets/img/about/about-img.svg" alt="about">
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="about-content mb-50">
-							<div class="section-title mb-50">
-								<h1 class="mb-25">Read more about our Digital Agency</h1>
-								<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
-							</div>
-							<div class="accordion pb-15" id="accordionExample">
-								<div class="single-faq">
-									<button class="w-100 text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-										Which Service We Provide?
-									</button>
-							
-									<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-										<div class="faq-content">
-											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-										</div>
-									</div>
-								</div>
-								<div class="single-faq">
-									<button class="w-100 text-start collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-										What I need to start design?
-									</button>
-									<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-										<div class="faq-content">
-											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-										</div>
-									</div>
-								</div>
-								<div class="single-faq">
-									<button class="w-100 text-start collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-										What  is our design process?
-									</button>
-									<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-										<div class="faq-content">
-											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-										</div>
-									</div>
-								</div>
-							</div>
-							<a href="javascript:void(0)" class="main-btn btn-hover">View More</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-		<!-- ========================= about-section end ========================= -->
-
 		<!-- ========================= service-section start ========================= -->
 		<section id="about" class="service-section img-bg pt-200 pb-100">
 			<div class="container">
@@ -246,7 +161,7 @@
 							<svg viewbox="0 0 100 20">
 								<defs>
 								  <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
-									<stop offset="5%" stop-color="#34acf3"/>
+									<stop offset="5%" stop-color="#70eaffcc"/>
 									<stop offset="95%" stop-color="#00daff"/>
 								  </linearGradient>
 								  <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
@@ -276,7 +191,7 @@
 							<div class="icon color-1">
 								
 							</div>
-							<div class="content">
+							<div data-aos="flip-down" class="content">
 								<h3>Christian Philpotts</h3>
 								<p>Speak life in Jesus' name!</p>
 							</div>
@@ -409,6 +324,81 @@
 		</section> -->
 		<!-- ========================= counter-up-section end ========================= -->
 
+	<!-- ========================= contact form start ========================= -->
+
+	<section id="contact" class="contact-section pt-100">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        
+					<div class="section-title text-center mb-25">
+						<svg viewbox="0 0 100 20">
+							<defs>
+							  <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+								<stop offset="5%" stop-color="#34acf3"/>
+								<stop offset="95%" stop-color="#00daff"/>
+							  </linearGradient>
+							  <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+								<path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+								  <animateTransform
+									  attributeName="transform"
+									  begin="0s"
+									  dur="1.5s"
+									  type="translate"
+									  from="0,0"
+									  to="40,0"
+									  repeatCount="indefinite" />
+								</path>
+							  </pattern>
+							</defs>
+							<text text-anchor="middle" x="50" y="15" font-size="17" letter-spacing="2" fill="url(#wave)"  fill-opacity="0.6">CONTACT</text>
+							<text text-anchor="middle" x="50" y="15" font-size="17" letter-spacing="2" fill="url(#gradient)" fill-opacity="0.3">CONTACT</text>
+						</svg>
+						<p>Reach out to us for any questions or suggestions</p>
+				</div>
+			</div>
+	  
+			<div class="row">
+	  
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 contact-div">
+	  
+					<form id="contact-form" name="myForm" class="form" action="https://formspree.io/f/mzbqykng" onsubmit="return validateForm()" method="POST" role="form">
+	  
+						<div class="form-group">
+							<label class="form-label" id="nameLabel" for="name"></label>
+							<input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1">
+						</div>
+	  
+						<div class="form-group">
+							<label class="form-label" id="emailLabel" for="email"></label>
+							<input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2">
+						</div>
+	  
+						<div class="form-group">
+							<label class="form-label" id="subjectLabel" for="sublect"></label>
+							<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
+						</div>
+	  
+						<div class="form-group">
+							<label class="form-label" id="messageLabel" for="message"></label>
+							<textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" tabindex="4"></textarea>                                 
+						</div>
+	  
+						<div class="text-center mt-25 mb-25">
+							<button type="submit" class="btn btn-mod btn-border btn-large">Send Message</button>
+						</div>
+	  
+					</form><!-- End form -->
+				  
+				</div><!-- End col -->
+	  
+			</div><!-- End row -->
+			
+		  </div><!-- End container -->
+
+	</section>
+
+	<!-- ========================= contact form end ========================= -->
 
     <!-- ========================= footer start ========================= -->
 		<footer class="footer">
@@ -501,11 +491,23 @@
     </a>
 
     <!-- ========================= JS here ========================= -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	  $(function() {
+          AOS.init();
+     });
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="assets/js/bootstrap-5.0.0-beta2.min.js"></script>
     <script src="assets/js/count-up.min.js"></script>
     <script src="assets/js/tiny-slider.js"></script>
-    <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/polifill.js"></script>
     <script src="assets/js/main.js"></script>
+	
   </body>
+  <script>
+	$(function() {
+		AOS.init();
+   });
+  </script>
 </html>
