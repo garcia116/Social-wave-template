@@ -25,6 +25,13 @@ body {
   font-style: normal;
   color: #b0b2c0;
   overflow-x: hidden;
+  position: relative;
+  z-index: 1;
+
+  background-image: url("../img/hero/hero.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
 }
 
 * {
@@ -92,8 +99,8 @@ h6 {
 }
 
 .section-title p {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 24px;
+  line-height: 38px;
   padding: 20px 0px;
   
 }
@@ -707,13 +714,7 @@ p {
 }
 
 .hero-section {
-  position: relative;
-  z-index: 1;
   padding: 120px 0 7px;
-  background-image: url("../img/hero/hero.svg");
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: cover;
 }
 
 .header {
@@ -1081,7 +1082,6 @@ p {
 
 /* ============== service css ==============*/
 .service-section {
-  background-image: url("../img/hero/hero.svg");
   font-family: Calistoga;
 }
 
@@ -1143,28 +1143,28 @@ p {
 
 .service-section .single-service .icon.color-1 {
   background: #FFEFFF;
-  background-image: url(../img/service/chris.jpeg);
+  background-image: url(../img/service/mario.JPEG);
   background-position: center;
   background-size: cover;
 }
 
 .service-section .single-service .icon.color-2 {
   background: #E4E9FF;
-  background-image: url(../img/service/gera.jpg);
+  background-image: url(../img/service/gera.PNG);
   background-position: center;
   background-size: cover;
 }
 
 .service-section .single-service .icon.color-3 {
   background: #FFEAEA;
-  background-image: url(../img/service/millie.JPG);
+  background-image: url(../img/service/jacob.JPG);
   background-position: center;
   background-size: cover;
 }
 
 .service-section .single-service .icon.color-4 {
   background: #ECE8FF;
-  background-image: url(../img/service/mario.JPEG);
+  background-image: url(../img/service/oscar.JPG);
   background-position: center;
   background-size: cover;
 }
@@ -1319,9 +1319,6 @@ p {
   padding: 0 20% 0 20%;
 }
 
-.contact-section {
-  background-image: url("../img/hero/hero.svg");
-}
 
 .contact-section svg {
   font-weight: bold;
